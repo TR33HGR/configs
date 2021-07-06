@@ -1,0 +1,9 @@
+  1 [user]
+  2   name = Nathaniel Micklewright
+  4 [credential]
+  5   helper = store
+  6 [alias]
+  7   lg = log --graph --pretty=format:'%C(auto)%h%d (%cr) <%cn> %s'
+  8   delete = !git branch -D $1 && git push origin --delete
+  9 [core]
+ 10   editor = vim
