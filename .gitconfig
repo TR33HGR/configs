@@ -4,6 +4,7 @@
   helper = store
 [alias]
   lg = log --graph --pretty=format:'%C(auto)%h%d (%cr) <%cn> %s'
+  lga = log --graph --pretty=format:'%C(auto)%h%d (%cr) <%cn> %s' --all
   delete = !git branch -D $1 && git push origin --delete
   sh = show --name-only
 [core]
